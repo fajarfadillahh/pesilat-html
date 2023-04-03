@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Kopi Mantan</title>
+
+    <!-- LINK -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav class="navbar bg-grid">
+        <div>
+          <a href="#" class="nav__logo">Kopi Mantan</a>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+
+          <div class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Promo</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <div class="hero">
+        <div class="hero__container bg-grid">
+          <div class="hero__img">
+            <img
+              src="./img/img1.png"
+              alt="Image 1"
+              data-speed="-2"
+              class="move"
+            />
+            <img
+              src="./img/img2.png"
+              alt="Image 2"
+              data-speed="2"
+              class="move"
+            />
+            <img
+              src="./img/img3.png"
+              alt="Image 3"
+              data-speed="2"
+              class="move"
+            />
+            <img
+              src="./img/img4.png"
+              alt="Image 4"
+              data-speed="-2"
+              class="move"
+            />
+            <img
+              src="./img/img5.png"
+              alt="Image 5"
+              data-speed="-2"
+              class="move"
+            />
+            <img
+              src="./img/img6.png"
+              alt="Image 6"
+              data-speed="2"
+              class="move"
+            />
+          </div>
+
+          <div class="hero__data">
+            <h1 class="hero__title">Ingat<br />Mantan?</h1>
+            <p class="hero__description">
+              Semoga dengan minum kopi ini, <br />kamu bisa melupakannya.
+            </p>
+            <a href="#" class="hero__button">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <!-- JAVASCRIPT -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
